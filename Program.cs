@@ -13,7 +13,7 @@ namespace ConsoleApp21
             Console.Write("Please Enter The Second Number : ");
             secondnum = int.Parse(Console.ReadLine());
             Console.WriteLine("The prime numbers between " + firstnum + " and " + secondnum + " Are : ");
-            for (int i = 2; i < secondnum; i++)
+            for (int i = firstnum; i < secondnum; i++)
             {
                 for (int j = 1; j < secondnum; j++)
                 {
