@@ -7,12 +7,12 @@ namespace ConsoleApp21
         static void Main(string[] args)
         {
             int firstnum, secondnum, result = 0;
-             Console.WriteLine("Enter two Numbers to get the prime numbers Between Them");
+             Console.WriteLine("Enter two Numbers to get the prime numbers ");
             Console.Write("Please Enter The First Number : ");
             firstnum = int.Parse(Console.ReadLine());
             Console.Write("Please Enter The Second Number : ");
             secondnum = int.Parse(Console.ReadLine());
-            Console.WriteLine("The prime numbers between " + firstnum + " and " + secondnum + " Are : ");
+            Console.WriteLine("The prime numbers from " + firstnum + " and " + secondnum + " Are : ");
             for (int i = firstnum; i < secondnum; i++)
             {
                 for (int j = 1; j < secondnum; j++)
